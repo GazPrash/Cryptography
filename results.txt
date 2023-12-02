@@ -1,0 +1,21 @@
+One time pad's Security 
+
+
+C = 1010100101010
+
+
+<initial>
+P = 1101011011111 ---> Fixed
+K = 1010010110010 ---> random
+
+S[0] ----> randbit xor fixed bit
+probability of S[0] to be 0 is : 1/2
+-------""------S[i] to be (0, 1) is : (1/2, 1/2)   (V in {0, len of message})
+
+
+
+
+C*C = (P xor K) xor (P xor K)  ----> useless 
+
+
+PAT = esoihfmvy3cqzg25gz7kxocmqzhn6ky3ifojs66d4hwh2ihyinxq
